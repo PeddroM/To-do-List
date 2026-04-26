@@ -1,0 +1,92 @@
+body{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+main{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h1{
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.input-section p{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#nueva-tarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#btn-agregar{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#tareas-container{
+    margin-top:  20px;
+    min-height: 100px ;
+}
+
+.tareas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.tareas span{
+    font-size: 12px;
+    color: gray;
+    width: 60px;
+}
+
+.completada{
+    text-decoration: line-through;
+    color: red;
+}
+
+.borrar-tarea{
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.tareas-totales{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.suma p{
+    margin: 5px;
+}
+
+.suma span{
+    color: #28a745;
+}
